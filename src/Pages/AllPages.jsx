@@ -11,7 +11,7 @@ const AllPages = () => {
 
   return (
     <div>
-      <Router>
+      <Router basename='/weather_forcast'>
         <Routes>
         <Route path="/" element={<Home/>}/>
         </Routes>
