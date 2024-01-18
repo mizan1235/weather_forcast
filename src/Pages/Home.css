@@ -1,0 +1,162 @@
+.container-fluid{
+    background: rgba(0, 149, 255, 0.902)
+
+}
+.home{
+    /* background: yellow; */
+    width: 100%;
+    font-size: 20px;
+}
+.container{
+    /* display: flex; */
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 3px;
+    /* min-height: 300px; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background: yellow; */
+}
+.item{
+    display: flex;
+    /* min-width: 340px; */
+    margin-right: 15px;
+    min-height: 290px;
+    /* border: 2px solid red; */
+    /* max-width: 500px; */
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.element{
+    /* border: 2px solid red; */
+    margin: 2px;
+    min-height: 170px;
+    background: rgb(42, 87, 165);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.element1{
+    /* border: 2px solid red; */
+    margin: 2px;
+    min-height: 170px;
+    background: rgb(42, 87, 165);
+    color: white;
+  
+}
+.temp{
+    font-size: 35px;
+    /* border: 2px solid red; */
+    margin-top: 4px;
+    min-width: 130px;
+}
+.item-element{
+    /* border:  2px solid red; */
+    padding: 2px;
+    margin-right:10px;
+}
+.ele{
+    padding: 5px;
+    font-size: 25px;
+}
+.city-name{
+    text-align: center;
+    font-size: 20px;
+}
+
+.container2{
+    width: 100%;
+    overflow-y: scroll;
+    padding: 5px;
+    margin-top: 5px;
+    /* border: 2px solid red; */
+    background: rgba(149, 0, 255, 0.262);
+    display: flex;
+}
+.cont2-item{
+    /* border: 2px solid red; */
+    font-size: 20px;
+    padding: 20px;
+    /* border: 2px solid yellow; */
+    background: rgba(245, 245, 245, 0.777);
+    min-width: 150px;
+
+}
+.sugg{
+    /* border: 2px solid red; */
+    padding: 2px;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    opacity: 2;
+    position: absolute;
+    right: 4px;
+    
+}
+#suggestions{
+    /* border: 2px solid red; */
+    /* display: flex; */
+    max-width: 300px;
+    right: 5px;
+    float: right;
+    font-size: bold;
+    background: rgb(42, 87, 165);
+    color: white;
+    
+    
+    
+}
+
+
+/* Footer CSS */
+.footer_header{
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    position:-ms-page;
+    bottom: 0px; 
+    width: 100%;
+}
+.footer{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.footer-item{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    margin: auto;
+    /* border: 2px solid red;     */
+}
+.footer-image{
+    max-width: 40px;
+    max-height: 40px;
+
+}
+.item-1{
+    /* background: aqua; */
+    margin: 10px;
+
+}
+.footer-item img{
+    cursor: pointer;
+    margin: 10px;
+}
+.copyright{
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    
+}
+.container{
+    display: flex;
+    background: rgba(0, 0, 255, 0.715);
+    color: white;
+}
+.item13{
+    /* border: 2px solid red; */
+    margin: 10px;
+    font-size: 20px;
+   
+}
